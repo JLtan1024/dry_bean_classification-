@@ -1,3 +1,4 @@
+
 import streamlit as st
 import shap
 import pandas as pd
@@ -7,6 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt
 from streamlit_shap import st_shap
+import openpyxl
 
 # Load the dataset (assuming it's in the same directory)
 customer = pd.read_excel("Dry_Bean_Dataset.xlsx")
